@@ -41,7 +41,7 @@
 body {
   padding-top: 70px;
   /* Altura da navbar fixa */
-  background-color: #ffffff;
+  background-color: #f9f9f9;
 }
 
 .navbar {
@@ -63,9 +63,8 @@ body {
 }
 
 .custom-container {
-  margin-top: 10%;
-  /* Adicione a margem de 90px ao redor do container */
-  margin-bottom: 10%;
+  padding: 100px 0; /* ou qualquer valor de espaçamento desejado */
+  margin: 0; /* Remova margens para ocupar a largura total */
 }
 
 .site-margin {
@@ -100,4 +99,28 @@ body {
 
 .round-img {
   border-radius: 5%;
+}
+
+.projects-main {
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  gap: 8rem;
+  padding: 2rem;
+  width: 75%;
+  background-color: #ffffff;
+}
+
+.project-img{
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  height: auto;
+  overflow: hidden;
+}
+
+.box-effect {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  font-weight: 600t;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
 }

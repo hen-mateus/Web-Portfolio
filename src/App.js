@@ -9,6 +9,10 @@ import Hero from './view/hero-section';
 import Project from './view/projects';
 import Skills from './view/skills';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 import './App.css';
 import './fonts.css';
 
@@ -87,6 +91,22 @@ function App() {
               <Contact />
             </div>
           </div>
+        </div>
+        <div className="container-fluid">
+          <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div className="col-md-4 d-flex align-items-center">
+              <span className="text-muted">Copyright &copy; 2023. All rights are reserved</span>
+            </div>
+
+            <div className="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <div className="col-md-2">
+                <a href="https://www.linkedin.com/in/henmateus/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
+              </div>
+              <div className="col-md-2">
+                <a href="https://github.com/hen-mateus" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" /></a>
+              </div>
+            </div>
+          </footer>
         </div>
       </div>
     </Router>
