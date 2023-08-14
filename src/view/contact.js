@@ -4,6 +4,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 export default function Contact() {
     return (
-        <h1>Contact</h1>
+        <div className="container-fluid">
+            <div className="">
+              <p>Contact</p>
+              <p>I'm currently looking for opportunities. Whether its a Full-Time Job or a Freelance work. Send me a message, I'll try to get back to you as soon as possible.</p>
+              <p>E-mail</p>
+            </div>
+        </div>
     );
 }
