@@ -70,7 +70,7 @@ function App() {
             </div>
           </div>
         </nav>
-        <div className="container py-4">
+        <div className="container-fluid py-4">
           <div className="row">
             <Routes>
               <Route

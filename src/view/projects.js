@@ -7,7 +7,7 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 export default function Project() {
     return (
-        <div className="container custom-container">
+        <div className="container my-5">
             <div className="col-md-12 titulo">
                 <p>Projects</p>
             </div>

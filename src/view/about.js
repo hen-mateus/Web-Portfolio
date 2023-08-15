@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 export default function About() {
     return (
-        <div className="container custom-container">
+        <div className="container my-5">
             <div className="row">
                 <div className="col-md-12 titulo color-grey">
                     <p>About</p>

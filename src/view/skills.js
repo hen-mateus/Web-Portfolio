@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 export default function Skills() {
     return (
-        <div className="container-fluid custom-container">
+        <div className="container my-5">
             <div className="row">
                 <div className="col-md-12 color-white titulo">
                     <p>Skills</p>
