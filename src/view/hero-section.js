@@ -27,10 +27,10 @@ export default function Hero() {
                         </p>
                     </div>
                     <div className="mt-4 d-flex gap-4">
-                        <a href="https://www.linkedin.com/in/henmateus/" target="_blank">
+                        <a href="https://www.linkedin.com/in/henmateus/" target="_blank" className='text-decoration-none text-reset'>
                             <FontAwesomeIcon icon={faLinkedin} size="2x" />
                         </a>
-                        <a href="https://github.com/hen-mateus" target="_blank">
+                        <a href="https://github.com/hen-mateus" target="_blank" className='text-decoration-none text-reset'>
                             <FontAwesomeIcon icon={faGithub} size="2x" />
                         </a>
                     </div>

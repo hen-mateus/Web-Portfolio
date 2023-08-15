@@ -28,8 +28,8 @@ export default function Project() {
                             <p className='m-2 box-effect'>Node</p>
                         </div>
                         <div className="mb-4">
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none text-reset'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none text-reset'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
                         </div>
                     </div>
                     <div className="col-md-7 project-img">
