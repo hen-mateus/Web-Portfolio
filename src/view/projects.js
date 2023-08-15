@@ -7,7 +7,7 @@ import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 export default function Project() {
     return (
-        <div className="container my-5">
+        <div className="">
             <div className="col-md-12 titulo">
                 <p>Projects</p>
             </div>
@@ -17,28 +17,27 @@ export default function Project() {
             <div className="container mt-4 projects-main">
                 <div className="row">
                     <div className="col-md-5">
-                        <div className="row">
-                            <div className="col-md-12 mb-2">
-                                <p>CAR RENTAL 🚗</p>
-                            </div>
-                            <div className="col-md-12 mb-2 pe-5 ps-5">
-                                <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.  </p>
-                            </div>
-                            <div className="col-md-12 mb-4 d-flex flex-row justify-content-center">
-                                <p className='m-2 box-effect'>React</p>
-                                <p className='m-2 box-effect'>Node</p>
-                            </div>
-                            <div className="col-md-12 mb-4">
-                                <a href="https://github.com/hen-mateus" target="_blank" className='p-2'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                                <a href="https://github.com/hen-mateus" target="_blank" className='p-2'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
-                            </div>
+                        <div className="mb-4">
+                            <p>CAR RENTAL 🚗</p>
+                        </div>
+                        <div className="mb-4 pe-md-5 ps-md-5">
+                            <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
+                        </div>
+                        <div className="mb-4 d-flex justify-content-center">
+                            <p className='m-2 box-effect'>React</p>
+                            <p className='m-2 box-effect'>Node</p>
+                        </div>
+                        <div className="mb-4">
+                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
                         </div>
                     </div>
                     <div className="col-md-7 project-img">
-                        <img src="images/hero-section.svg" alt="Imagem" classNames="img-fluid" />
+                        <img src="images/hero-section.svg" alt="Imagem" className="img-fluid" />
                     </div>
                 </div>
             </div>
         </div>
+
     );
 }

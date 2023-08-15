@@ -4,15 +4,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 export default function Skills() {
     return (
-        <div className="container my-5">
-            <div className="row">
-                <div className="col-md-12 color-white titulo">
-                    <p>Skills</p>
-                </div>
-                <div className="col-md-12 color-white roboto-font">
-                    <p>I have been working in web development industry for over 3 years.</p>
-                </div>
-                <div className="col-md-12 mt-5">
+        <div className="row my-5">
+            <div className="col-md-12 color-white titulo">
+                <p>Skills</p>
+            </div>
+            <div className="col-md-12 color-white roboto-font">
+                <p>I have been working in web development industry for over 3 years.</p>
+            </div>
+            <div className="col-md-12 mt-5">
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
@@ -21,8 +20,8 @@ export default function Skills() {
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
-                </div>
-                <div className="col-md-12 mt-5">
+            </div>
+            <div className="col-md-12 mt-5">
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
@@ -30,7 +29,6 @@ export default function Skills() {
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
                 <a href="https://en.wikipedia.org/wiki/HTML"><img alt="html" width="70" src="/images/html.png" /></a>
-                </div>  
             </div>
         </div>
     );

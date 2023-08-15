@@ -63,8 +63,8 @@ body {
 }
 
 .custom-container {
-  padding: 100px 0; /* ou qualquer valor de espaçamento desejado */
-  margin: 0; /* Remova margens para ocupar a largura total */
+  margin: 0 auto;
+  max-width: 80%;
 }
 
 .site-margin {

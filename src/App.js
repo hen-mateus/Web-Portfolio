@@ -70,7 +70,7 @@ function App() {
             </div>
           </div>
         </nav>
-        <div className="container-fluid py-4">
+        <div className="container-fluid mt-5">
           <div className="row">
             <Routes>
               <Route
@@ -78,27 +78,26 @@ function App() {
                 element={<Hero />}
               />
             </Routes>
-            <div ref={aboutRef}>
+            <div className='container my-5' ref={aboutRef}>
               <About />
             </div>
-            <div className='background-grey' ref={skillsRef}>
+            <div className='container background-grey my-5' ref={skillsRef}>
               <Skills />
             </div>
-            <div ref={projectRef}>
+            <div className='container my-5' ref={projectRef} >
               <Project />
             </div>
-            <div ref={contactRef}>
+            <div className='container background-grey' ref={contactRef}>
               <Contact />
             </div>
           </div>
         </div>
-        <div className="container-fluid">
-          <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div className="container-fluid background-grey">
+          <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top color-white">
             <div className="col-md-4 d-flex align-items-center">
-              <span className="text-muted">Copyright &copy; 2023. All rights are reserved</span>
+              <span>Copyright &copy; 2023. All rights are reserved</span>
             </div>
-
-            <div className="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <div className="nav col-md-4 justify-content-end d-flex">
               <div className="col-md-2">
                 <a href="https://www.linkedin.com/in/henmateus/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
               </div>
