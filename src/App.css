@@ -141,9 +141,25 @@ body {
 }
 
 .contact-bmargin {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .contact-bmargin-2 {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
+}
+
+.skills-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-grid a {
+  display: inline-block;
+  transition: all 0.4s ease-in-out;
+}
+
+.skills-grid a:hover {
+  transform: scale(1.1) translateY(-5px);
 }
