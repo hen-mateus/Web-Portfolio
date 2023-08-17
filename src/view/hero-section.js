@@ -36,7 +36,7 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="col-md-5">
-                    <img src="/images/hero-section.svg" alt="Imagem do Herói" className="img-fluid" />
+                    <img src="/assets/hero-section.svg" alt="Imagem do Herói" className="img-fluid" />
                 </div>
             </div>
 

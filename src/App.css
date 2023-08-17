@@ -139,3 +139,11 @@ body {
 ::-webkit-scrollbar-track {
   background-color: #c6c6c6;
 }
+
+.contact-bmargin {
+  margin-bottom: 30px;
+}
+
+.contact-bmargin-2 {
+  margin-bottom: 50px;
+}

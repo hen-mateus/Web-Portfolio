@@ -114,7 +114,7 @@ function App() {
           </div>
         </div>
         <div className="container-fluid background-grey">
-          <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top color-white">
+          <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 border-top color-white custom-container">
             <div className="col-md-4 d-flex align-items-center">
               <span>Copyright &copy; 2023. All rights are reserved</span>
             </div>
