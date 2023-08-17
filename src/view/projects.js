@@ -33,7 +33,7 @@ export default function Project() {
                         </div>
                     </div>
                     <div className="col-md-7 project-img">
-                        <img src="images/hero-section.svg" alt="Imagem" className="img-fluid" />
+                        <img src="assets/hero-section.svg" alt="Imagem" className="img-fluid" />
                     </div>
                 </div>
             </div>

@@ -8,11 +8,11 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 export default function Hero() {
     return (
         <div className="container custom-container my-5">
-            <div className="row">
+            <div className="row mt-4">
                 <div className="col-md-7 d-flex flex-column justify-content-center">
                     <div className="text-start color-blue roboto-font">
                         <p>Hi, my name is</p>
-                    </div>  
+                    </div> 
                     <div className="text-start titulo">
                         <p>Henrique Mateus.</p>
                     </div>

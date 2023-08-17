@@ -45,7 +45,10 @@ body {
 
 .navbar {
   height: 65px;
-  background-color: #8f2828;
+  transition: box-shadow 0.3s ease-in-out;
+  /* Adiciona a transição de sombra */
+  box-shadow: none;
+  /* Remova a sombra definida aqui */
 }
 
 .navbar-brand {
