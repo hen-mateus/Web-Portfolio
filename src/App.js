@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
@@ -21,6 +21,8 @@ function App() {
   const skillsRef = useRef(null);
   const projectRef = useRef(null);
   const contactRef = useRef(null);
+  const [navbarShadow, setNavbarShadow] = useState(false);
+  const navbarShadowStyle = navbarShadow ? '0px 4px 10px rgba(0, 0, 0, 0.2)' : 'none';
 
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({
@@ -29,10 +31,29 @@ function App() {
     });
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      // Atualize o estado com base na posição de rolagem
+      if (window.scrollY > 0) {
+        setNavbarShadow(true);
+      } else {
+        setNavbarShadow(false);
+      }
+    };
+
+    // Adicione um ouvinte de evento para a rolagem da janela
+    window.addEventListener('scroll', handleScroll);
+
+    // Remova o ouvinte de evento ao desmontar o componente
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <Router>
-      <div className="App inter-font">
-        <nav className="navbar navbar-expand-md fixed-top bg-white roboto-font">
+      <div className={`App inter-font ${navbarShadow ? 'navbar-shadow' : ''}`}>
+        <nav className="navbar navbar-expand-md fixed-top bg-white roboto-font" style={{ boxShadow: navbarShadowStyle }}>
           <div className="container">
             <a className="navbar-brand" href="#">
               <img src="/images/logo-02.png" alt="Logo" className="img-fluid" />
@@ -99,10 +120,10 @@ function App() {
             </div>
             <div className="nav col-md-4 justify-content-end d-flex">
               <div className="col-md-2">
-                <a href="https://www.linkedin.com/in/henmateus/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
+                <a href="https://www.linkedin.com/in/henmateus/" target="_blank" className='text-decoration-none text-reset'><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
               </div>
               <div className="col-md-2">
-                <a href="https://github.com/hen-mateus" target="_blank"><FontAwesomeIcon icon={faGithub} size="2xl" /></a>
+                <a href="https://github.com/hen-mateus" target="_blank" className='text-decoration-none text-reset'><FontAwesomeIcon icon={faGithub} size="2xl" /></a>
               </div>
             </div>
           </footer>

@@ -40,25 +40,20 @@
 
 body {
   padding-top: 70px;
-  /* Altura da navbar fixa */
   background-color: #f9f9f9;
 }
 
 .navbar {
   height: 65px;
-  /* Ajuste a altura da navbar conforme necessário */
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #8f2828;
 }
 
-/* Estilos personalizados para ajustar as margens */
 .navbar-brand {
   margin-left: 7%;
-  /* Ajuste a margem direita conforme necessário */
 }
 
 .navbar-nav {
   margin-left: auto;
-  /* Isso empurra os itens para o canto direito */
   margin-right: 7%;
 }
 
@@ -69,7 +64,6 @@ body {
 
 .site-margin {
   margin-left: 13%;
-  /* Ajuste a margem direita conforme necessário */
   margin-right: 13%;
 }
 
@@ -110,9 +104,9 @@ body {
   background-color: #ffffff;
 }
 
-.project-img{
+.project-img {
   border-radius: 1.7rem;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
   height: auto;
   overflow: hidden;
 }
@@ -125,7 +119,20 @@ body {
   font-weight: 600;
 }
 
-.contact-container{
+.contact-container {
   width: 45%;
   height: 400px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #48A4FD;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #c6c6c6;
 }
