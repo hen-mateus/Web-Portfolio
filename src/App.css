@@ -99,19 +99,20 @@ body {
 }
 
 .projects-main {
-  border-radius: 1.7rem;
+  border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
   gap: 8rem;
-  padding: 2rem;
-  width: 75%;
+  padding: 1.5rem 2rem;
+  width: 65%;
   background-color: #ffffff;
 }
 
 .project-img {
-  border-radius: 1.7rem;
+  border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
   height: auto;
   overflow: hidden;
+  width: 530px;
 }
 
 .box-effect {

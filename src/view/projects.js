@@ -16,7 +16,10 @@ export default function Project() {
             </div>
             <div className="container mt-4 projects-main">
                 <div className="row">
-                    <div className="col-md-5">
+                    <div className="col-md-7 project-img">
+                        <img src="assets/1.png" alt="Imagem" className="img-fluid" />
+                    </div>
+                    <div className="col-md-5 ms-2">
                         <div className="mb-4">
                             <p>CAR RENTAL 🚗</p>
                         </div>
@@ -31,9 +34,6 @@ export default function Project() {
                             <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none text-reset'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
                             <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none text-reset'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
                         </div>
-                    </div>
-                    <div className="col-md-7 project-img">
-                        <img src="assets/hero-section.svg" alt="Imagem" className="img-fluid" />
                     </div>
                 </div>
             </div>
