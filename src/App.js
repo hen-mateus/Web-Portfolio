@@ -120,10 +120,10 @@ function App() {
             </div>
             <div className="nav col-md-4 justify-content-end d-flex">
               <div className="col-md-2">
-                <a href="https://www.linkedin.com/in/henmateus/" target="_blank" className='text-decoration-none text-reset'><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
+                <a href="https://www.linkedin.com/in/henmateus/" target="_blank" className='text-decoration-none nav-link color-white'><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
               </div>
               <div className="col-md-2">
-                <a href="https://github.com/hen-mateus" target="_blank" className='text-decoration-none text-reset'><FontAwesomeIcon icon={faGithub} size="2xl" /></a>
+                <a href="https://github.com/hen-mateus" target="_blank" className='text-decoration-none nav-link color-white'><FontAwesomeIcon icon={faGithub} size="2xl" /></a>
               </div>
             </div>
           </footer>

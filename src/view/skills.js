@@ -13,7 +13,9 @@ export default function Skills() {
                     <p>I have been working in the web development industry for over 3 years.</p>
                 </div>
                 <div className="col-12 mt-5 skills-grid">
+                    <div>
                     <a href="https://www.w3schools.com/html/default.asp"><img alt="html" height="70" src="/assets/skills/html.png" /></a>
+                    </div>
                     <a href="https://www.w3schools.com/css/"><img alt="css" height="70" src="/assets/skills/css.png" /></a>
                     <a href="https://www.w3schools.com/js/"><img alt="js" height="70" src="/assets/skills/js.png" /></a>
                     <a href="https://react.dev/"><img alt="react" height="70" src="/assets/skills/react.png" /></a>

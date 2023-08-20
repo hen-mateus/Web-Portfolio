@@ -17,22 +17,22 @@ export default function Project() {
             <div className="container mt-4 projects-main">
                 <div className="row">
                     <div className="col-md-7 project-img">
-                        <img src="assets/1.png" alt="Imagem" className="img-fluid" />
+                        <img src="assets/hero-section.svg" alt="Imagem" className="img-fluid" />
                     </div>
-                    <div className="col-md-5 ms-2">
-                        <div className="mb-4">
-                            <p>CAR RENTAL 🚗</p>
+                    <div className="col-md-5 ms-2 mt-4">
+                        <div className="mb-2 fw-bold">
+                            <p>CAR RENTAL</p>
                         </div>
-                        <div className="mb-4 pe-md-5 ps-md-5">
+                        <div className="mb-2 pe-md-5 ps-md-5 fw-semibold color-grey">
                             <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
                         </div>
-                        <div className="mb-4 d-flex justify-content-center">
-                            <p className='m-2 box-effect'>React</p>
-                            <p className='m-2 box-effect'>Node</p>
+                        <div className="mb-2 d-flex justify-content-center roboto-font">
+                            <p className='m-2 box-project fw-bold'>React</p>
+                            <p className='m-2 box-project fw-bold'>Node</p>
                         </div>
-                        <div className="mb-4">
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none text-reset'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none text-reset'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                        <div className="d-flex justify-content-center">
+                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
                         </div>
                     </div>
                 </div>
