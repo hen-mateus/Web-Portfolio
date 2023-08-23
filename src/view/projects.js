@@ -32,8 +32,8 @@ export default function Project() {
                             <p className='m-2 box-project fw-bold'>Bootstrap</p>
                         </div>
                         <div className="d-flex justify-content-center">
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
                         </div>
                     </div>
                 </div>
@@ -53,8 +53,8 @@ export default function Project() {
                             <p className='m-2 box-project fw-bold'>Javascript</p>
                         </div>
                         <div className="d-flex justify-content-center">
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
                         </div>
                     </div>
                     <div className="col-md-7 project-img">
@@ -80,8 +80,8 @@ export default function Project() {
                             <p className='m-2 box-project fw-bold'>Bootstrap</p>
                         </div>
                         <div className="d-flex justify-content-center">
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
                         </div>
                     </div>
                 </div>
@@ -100,8 +100,8 @@ export default function Project() {
                             <p className='m-2 box-project fw-bold'>.NET</p>
                         </div>
                         <div className="d-flex justify-content-center">
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
                         </div>
                     </div>
                     <div className="col-md-7 project-img">
@@ -126,8 +126,8 @@ export default function Project() {
                             <p className='m-2 box-project fw-bold'>.NET</p>
                         </div>
                         <div className="d-flex justify-content-center">
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
                         </div>
                     </div>
                 </div>

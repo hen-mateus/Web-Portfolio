@@ -12,7 +12,7 @@ export default function About() {
             </div>
             <div className="row">
                 <div className="col-md-4 d-flex justify-content-center">
-                    <img alt="Profile Photo" src="/assets/profilephoto.jpeg" className="img-fluid round-img" />
+                    <img alt="Adventurous individual enjoying a breathtaking sunset view from the mountain's peak, capturing a sense of awe and wonder in the great outdoors." src="/assets/profilephoto.jpeg" className="img-fluid round-img" />
                 </div>
                 <div className="col-md-7 mt-4">
                     <div className="text-start titulo-ter">
