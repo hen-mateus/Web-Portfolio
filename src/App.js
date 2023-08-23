@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import About from './view/about';
 import Contact from './view/contact';
@@ -55,7 +55,7 @@ function App() {
       <div className={`App inter-font ${navbarShadow ? 'navbar-shadow' : ''}`}>
         <nav className="navbar navbar-expand-md fixed-top bg-white roboto-font" style={{ boxShadow: navbarShadowStyle }}>
           <div className="container">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="#home">
               <img src="/assets/logo-02.png" alt="Logo" className="img-fluid" />
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -120,10 +120,10 @@ function App() {
             </div>
             <div className="nav col-md-4 justify-content-end d-flex">
               <div className="col-md-2">
-                <a href="https://www.linkedin.com/in/henmateus/" target="_blank" className='text-decoration-none nav-link color-white'><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
+                <a href="https://www.linkedin.com/in/henmateus/" target="_blank" rel="noreferrer" className='text-decoration-none nav-link color-white'><FontAwesomeIcon icon={faLinkedin} size="2xl" /></a>
               </div>
               <div className="col-md-2">
-                <a href="https://github.com/hen-mateus" target="_blank" className='text-decoration-none nav-link color-white'><FontAwesomeIcon icon={faGithub} size="2xl" /></a>
+                <a href="https://github.com/hen-mateus" target="_blank" rel="noreferrer" className='text-decoration-none nav-link color-white'><FontAwesomeIcon icon={faGithub} size="2xl" /></a>
               </div>
             </div>
           </footer>
