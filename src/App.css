@@ -125,8 +125,8 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #48A4FD;
-  border-radius: 5px;
+  background-color: #789abc;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-track {
@@ -185,4 +185,46 @@ body {
 .box-contact:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 5px 2px rgba(255, 255, 255, 0.08);
+}
+
+/* ProjectCard.css */
+.img-container {
+  height: 350px;
+  overflow: hidden;
+}
+
+.img-transition {
+  transition: transform 10s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.img-transition-mf {
+  transition: transform 8s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.img-transition-fa {
+  transition: transform 6s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.img-transition-va {
+  transition: transform 8s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.img-transition:hover {
+  transform: translateY(-87%);
+}
+
+.img-transition-mf:hover {
+  transform: translateY(-75%);
+}
+
+.img-transition-fa:hover {
+  transform: translateY(-72%);
+}
+
+.img-transition-va:hover {
+  transform: translateY(-80.5%);
 }
