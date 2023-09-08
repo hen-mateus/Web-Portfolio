@@ -10,7 +10,7 @@ export default function Skills() {
                     <p>Skills</p>
                 </div>
                 <div className="col-12 color-white">
-                    <p>I have been working in the web development industry for over 3 years.</p>
+                    <p>Here are the Technologies and Programs I use in my projects.</p>
                 </div>
                 <div className="col-12 mt-5 skills-grid">
                     <div>

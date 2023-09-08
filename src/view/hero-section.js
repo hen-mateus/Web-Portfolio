@@ -17,7 +17,7 @@ export default function Hero() {
                         <p>Henrique Mateus.</p>
                     </div>
                     <div className="text-start color-grey titulo-sec">
-                        <p>I build things for the web.</p>
+                        <p>A aspiring Full Stack Developer</p>
                     </div>
                     <div className="mt-2">
                         <p className="text-start color-grey">

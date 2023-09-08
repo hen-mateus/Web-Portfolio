@@ -12,18 +12,20 @@ export default function Project() {
                 <p>Projects</p>
             </div>
             <div className="col-md-12 roboto-font">
-                <p>I have been working in web development industry for over 3 years.</p>
+                <p className="w-50 mx-auto">Presenting my Portfolio of developed projects, with the option to access the source code on GitHub and experience live demos.</p>
             </div>
             <div className="container mt-5 projects-main">
                 <div className="row">
-                <div className="col-md-7 project-img img-container">
-                        <img
-                            src="assets/projects/energyapp.jpg"
-                            alt="Imagem"
-                            className="img-fluid img-transition"
-                        />
+                    <div className="col-md-7">
+                        <div className='project-img img-container'>
+                            <img
+                                src="assets/projects/energyapp.jpg"
+                                alt="Imagem"
+                                className="img-fluid img-transition"
+                            />
+                        </div>
                     </div>
-                    <div className="col-md-5 ms-2 mt-4">
+                    <div className="col-md-5 mt-4">
                         <div className="mb-2 fw-bold">
                             <p> Energy Exchange Website</p>
                         </div>
@@ -37,14 +39,14 @@ export default function Project() {
                         </div>
                         <div className="d-flex justify-content-center">
                             <a href="https://github.com/hen-mateus/Energy-Exchange-Website" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://energyexchange.netlify.app/" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://energyexchange.netlify.app/" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="l" /></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="container mt-5 projects-main">
                 <div className="row">
-                    <div className="col-md-5 ms-2 mt-4">
+                    <div className="col-md-5 mt-4">
                         <div className="mb-2 fw-bold">
                             <p>Dia das Empresas Website</p>
                         </div>
@@ -58,28 +60,32 @@ export default function Project() {
                         </div>
                         <div className="d-flex justify-content-center">
                             <a href="https://github.com/hen-mateus/Dia-das-Empresas-Website" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://diadasempresas.netlify.app/" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://diadasempresas.netlify.app/" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="l" /></a>
                         </div>
                     </div>
-                    <div className="col-md-7 project-img img-container">
-                        <img
-                            src="assets/projects/dde.jpg"
-                            alt="Imagem"
-                            className="img-fluid img-transition"
-                        />
+                    <div className="col-md-7">
+                        <div className='project-img img-container'>
+                            <img
+                                src="assets/projects/dde.jpg"
+                                alt="Imagem"
+                                className="img-fluid img-transition"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="container mt-5 projects-main">
                 <div className="row">
-                    <div className="col-md-7 project-img img-container">
-                        <img
-                            src="assets/projects/movieflix.jpg"
-                            alt="Imagem"
-                            className="img-fluid img-transition-mf"
-                        />
+                    <div className="col-md-7">
+                        <div className='project-img img-container'>
+                            <img
+                                src="assets/projects/movieflix.jpg"
+                                alt="Imagem"
+                                className="img-fluid img-transition-mf"
+                            />
+                        </div>
                     </div>
-                    <div className="col-md-5 ms-2 mt-4">
+                    <div className="col-md-5 mt-4">
                         <div className="mb-2 fw-bold">
                             <p>MovieFlix Dashboard</p>
                         </div>
@@ -93,14 +99,14 @@ export default function Project() {
                         </div>
                         <div className="d-flex justify-content-center">
                             <a href="https://github.com/hen-mateus/MovieFlix-Dashboard" target="_blank" rel="noopener noreferrer" className="p-2 text-decoration-none nav-link">Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://movieflix-dashboard.netlify.app/" target="_blank" rel="noopener noreferrer" className="p-2 text-decoration-none nav-link">Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://movieflix-dashboard.netlify.app/" target="_blank" rel="noopener noreferrer" className="p-2 text-decoration-none nav-link">Live Demo <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="l" /></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="container mt-5 projects-main">
                 <div className="row">
-                    <div className="col-md-5 ms-2 mt-4">
+                    <div className="col-md-5 mt-4">
                         <div className="mb-2 fw-bold">
                             <p>VetClinic Manager App</p>
                         </div>
@@ -113,28 +119,32 @@ export default function Project() {
                         </div>
                         <div className="d-flex justify-content-center">
                             <a href="https://github.com/hen-mateus/VetClinic-Manager-App" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>More Info <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>More Info <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="l" /></a>
                         </div>
                     </div>
-                    <div className="col-md-7 project-img img-container">
-                        <img
-                            src="assets/projects/vetapp.jpg"
-                            alt="Imagem"
-                            className="img-fluid img-transition-va"
-                        />
+                    <div className="col-md-7">
+                        <div className='project-img img-container'>
+                            <img
+                                src="assets/projects/vetapp.jpg"
+                                alt="Imagem"
+                                className="img-fluid img-transition-va"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="container mt-5 projects-main">
                 <div className="row">
-                    <div className="col-md-7 project-img img-container">
-                        <img
-                            src="assets/projects/foodapp.jpg"
-                            alt="Imagem"
-                            className="img-fluid img-transition-fa"
-                        />
+                    <div className="col-md-7">
+                        <div className='project-img img-container'>
+                            <img
+                                src="assets/projects/foodapp.jpg"
+                                alt="Imagem"
+                                className="img-fluid img-transition-fa"
+                            />
+                        </div>
                     </div>
-                    <div className="col-md-5 ms-2 mt-4">
+                    <div className="col-md-5 mt-4">
                         <div className="mb-2 fw-bold">
                             <p>FoodMarket App</p>
                         </div>
@@ -147,7 +157,7 @@ export default function Project() {
                         </div>
                         <div className="d-flex justify-content-center">
                             <a href="https://github.com/hen-mateus/FoodMarket-App" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>More Info <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xl" /></a>
+                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>More Info <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="l" /></a>
                         </div>
                     </div>
                 </div>

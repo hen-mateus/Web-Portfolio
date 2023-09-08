@@ -56,7 +56,7 @@ function App() {
         <nav className="navbar navbar-expand-md fixed-top bg-white roboto-font" style={{ boxShadow: navbarShadowStyle }}>
           <div className="container">
             <a className="navbar-brand" href="#home">
-              <img src="/assets/logo-02.png" alt="Logo" className="img-fluid" />
+              <img src="/assets/logo.png" alt="Logo" className="img-fluid" />
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
