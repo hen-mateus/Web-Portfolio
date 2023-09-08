@@ -218,15 +218,15 @@ body {
 }
 
 .img-transition-mf:hover {
-  transform: translateY(-75%);
+  transform: translateY(-79%);
 }
 
 .img-transition-fa:hover {
-  transform: translateY(-72%);
+  transform: translateY(-76.5%);
 }
 
 .img-transition-va:hover {
-  transform: translateY(-80.5%);
+  transform: translateY(-83.8%);
 }
 
 .navbar-brand img {
