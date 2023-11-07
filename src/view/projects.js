@@ -119,7 +119,12 @@ export default function Project() {
                         </div>
                         <div className="d-flex justify-content-center">
                             <a href="https://github.com/hen-mateus/VetClinic-Manager-App" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>Code <FontAwesomeIcon icon={faGithub} size="xl" /></a>
-                            <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer" className='p-2 text-decoration-none nav-link'>More Info <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="l" /></a>
+                            <a
+                                href="/vetclinic-manager" // Rota da nova página
+                                className="p-2 text-decoration-none nav-link"
+                            >
+                                More Info <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="l" />
+                            </a>
                         </div>
                     </div>
                     <div className="col-md-7">
