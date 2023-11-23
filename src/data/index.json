@@ -1,0 +1,167 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/skills/html.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "HTML"
+    },
+    {
+      "id": "2",
+      "src": "./img/skills/css.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "CSS"
+    },
+    {
+      "id": "3",
+      "src": "./img/skills/js.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "JavaScript"
+    },
+    {
+      "id": "4",
+      "src": "./img/skills/react.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "React"
+    },
+    {
+      "id": "5",
+      "src": "./img/skills/bootstrap.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "Bootstrap"
+    },
+    {
+      "id": "6",
+      "src": "./img/skills/nodejs.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "Node.js"
+    },
+    {
+      "id": "7",
+      "src": "./img/skills/flutter.png ",
+      "link": "https://flutter.dev/",
+      "name": "Flutter"
+    },
+    {
+      "id": "8",
+      "src": "./img/skills/pgres.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "PostgreSQL"
+    },
+    {
+      "id": "9",
+      "src": "./img/skills/express.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "Express.js"
+    },
+    {
+      "id": "10",
+      "src": "./img/skills/csharp.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "C#"
+    },
+    {
+      "id": "11",
+      "src": "./img/skills/net.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": ".NET"
+    },
+    {
+      "id": "12",
+      "src": "./img/skills/figma.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "Figma"
+    },
+    {
+      "id": "13",
+      "src": "./img/skills/ai.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "Illustrator"
+    },
+    {
+      "id": "14",
+      "src": "./img/skills/ps.png ",
+      "link": "https://www.w3schools.com/html/default.asp",
+      "name": "Photoshop"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/projects/energyapp.jpg",
+      "title": "Energy Exchange Website",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "github": "Code In Github",
+      "githublink": "https://github.com/hen-mateus/Energy-Exchange-Website",
+      "live": "View Live",
+      "livelink": "https://energyexchange.netlify.app/",
+      "langs": [
+        "React",
+        "Node.js",
+        "Bootstrap",
+        "Express.js",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "2",
+      "src": "./img/projects/movieflix.jpg",
+      "title": "Dia das Empresas Website",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "github": "Code In Github",
+      "githublink": "https://github.com/hen-mateus/MovieFlix-Dashboard",
+      "live": "View Live",
+      "livelink": "https://movieflix-dashboard.netlify.app/",
+      "langs": [
+        "React",
+        "Node.js",
+        "Bootstrap",
+        "Express.js",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "id": "3",
+      "src": "./img/projects/dde.jpg",
+      "title": "MovieFlix Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "github": "Code In Github",
+      "githublink": "https://github.com/hen-mateus/Dia-das-Empresas-Website",
+      "live": "View Live",
+      "livelink": "https://diadasempresas.netlify.app/",
+      "langs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "4",
+      "src": "./img/projects/vetapp.jpg",
+      "title": "VetClinic Manager App",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "github": "Code In Github",
+      "githublink": "https://github.com/hen-mateus/VetClinic-Manager-App",
+      "live": "More Info",
+      "livelink": "https://github.com/hen-mateus/VetClinic-Manager-App",
+      "langs": [
+        "C#",
+        ".NET"
+      ]
+    },
+    {
+      "id": "5",
+      "src": "./img/projects/foodapp.jpg",
+      "title": "FoodMarket App",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "github": "Code In Github",
+      "githublink": "https://github.com/hen-mateus/FoodMarket-App",
+      "live": "More Info",
+      "livelink": "https://github.com/hen-mateus/FoodMarket-App",
+      "langs": [
+        "C#",
+        ".NET"
+      ]
+    }
+  ]
+}
