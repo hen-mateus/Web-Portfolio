@@ -107,7 +107,7 @@ export default function MyPortfolio() {
                     openModalForVet(item);
                   } else if (item.title === "FoodMarket App") {
                     openModalForFood(item);
-                  } else if (item.title === "StudyMentor - 4ª Edicção do HACK4EDU") {
+                  } else if (item.title === "StudyMentor - 4ª Edição do HACK4EDU") {
                     openModalForHack(item);
                   } else if (item.livelink) {
                     window.open(item.livelink, '_blank');
