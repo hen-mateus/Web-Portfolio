@@ -1,11 +1,9 @@
-//TODO: Ao fazer submit mostra apenas a mensagem e do lado esquerdo, fazer com que limpe os campos e mostre a imagem em baixo do botão
-
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function ContactMe() {
   const [state, handleSubmit] = useForm("mvojnjpd");
   if (state.succeeded) {
-    return <p>Obrigado por entrar em contato!</p>;
+    return <h2 className='success-message'>Obrigado por entrar em contato!</h2>;
   }
   return (
     <section id="Contact" className="contact--section">
@@ -64,7 +62,7 @@ export default function ContactMe() {
       </form>
       {state.succeeded && (
         <div className="success-message">
-          <p>Obrigado por entrar em contato!</p>
+          <h2>Obrigado por entrar em contato!</h2>
         </div>
       )}
     </section>

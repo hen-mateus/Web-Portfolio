@@ -11,9 +11,9 @@ export default function HeroSection() {
             <span className="hero--section-title--color">Henrique Mateus</span>
           </h1>
           <p className="hero--section-description">
-            Apaixonado por unir tecnologia e design para criar experiências digitais cativantes.
-            Proficiente em linguagens de programação e habilidoso na criação de sites e interfaces visualmente atraentes.
-            Animado para trazer criatividade e expertise técnica para projetos inovadores.
+            Entusiasta do Desenvolvimento Web e apaixonado por aprimorar constantemente as minhas habilidades.
+            Competências sólidas em tecnologias como React, Node.js, HTML, CSS, JavaScript, PostgreSQL e Express.
+            Motivado pela constante evolução da tecnologia, busco expandir conhecimentos e adquirir experiência prática na área.
           </p>
         </div>
         <div>
@@ -25,6 +25,13 @@ export default function HeroSection() {
           <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer">
             <button className="btn btn-primary">
               <FontAwesomeIcon icon={faGithub} size="2xl" />
+            </button>
+          </a>
+        </div>
+        <div>
+          <a href="/HenriqueMateus_Curriculo.pdf" download="HenriqueMateus_Curriculo.pdf">
+            <button className="btn btn-primary btn-cv">
+              <h3>Download CV</h3>
             </button>
           </a>
         </div>

@@ -92,6 +92,11 @@ export default function MyPortfolio() {
                   </div>
                 )}
               </div>
+              {(item.title === "Compra e Venda de Excedente Energético" || item.title === "MovieFlix Dashboard") && (
+                  <React.Fragment>
+                    <p>*Aguarde ao abrir para que os dados carregam.</p>
+                  </React.Fragment>
+                )}
               <div className="portfolio--section--card--buttons">
                 <button className="text-sm portfolio--link" onClick={() => window.open(item.githublink, '_blank')}>
                   {item.github}

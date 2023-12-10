@@ -64,13 +64,17 @@ p {
   color: var(--white);
   background-color: var(--darkblue);
   border: 1px solid var(--darkblue);
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 20px;
 }
 
 .btn-primary:hover {
   color: var(--darkblue);
   background-color: var(--white);
+}
+
+.btn-cv{
+  width: 210px;
 }
 
 .btn-github {
@@ -508,6 +512,7 @@ h2 {
 
 .portfolio--section--title {
   color: var(--heading-color);
+  margin-bottom: 17px;
 }
 
 .portfolio--link {
@@ -638,6 +643,11 @@ input[type="checkbox"] {
   border: 0.15em solid var(--heading-color);
   border-radius: 0.15em;
   transform: translatey(-0.075em);
+}
+
+.success-message{
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 /* Contact End */
