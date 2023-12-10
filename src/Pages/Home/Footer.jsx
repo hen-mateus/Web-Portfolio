@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer--container">
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Copyright © 2023. All rights are reserved</p>
+        <p className="footer--content">Copyright © 2023. Todos os direitos reservados.</p>
         <div className="footer--social--icon">
           <ul>
             <li>

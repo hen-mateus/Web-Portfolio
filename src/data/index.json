@@ -87,13 +87,30 @@
   ],
   "portfolio": [
     {
+      "id": "6",
+      "src": "./img/projects/studymentor.jpg",
+      "title": "StudyMentor - 4ª Edicção do HACK4EDU",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "github": "Ver no GitHub",
+      "githublink": "https://github.com/hen-mateus/hack4edu-studymentor",
+      "live": "Ver Mais",
+      "livelink": "https://github.com/hen-mateus/hack4edu-studymentor",
+      "langs": [
+        "ChatGPT",
+        "React",
+        "Node.js",
+        "Bootstrap",
+        "Express.js"
+      ]
+    },
+    {
       "id": "1",
       "src": "./img/projects/energyapp.jpg",
-      "title": "Energy Exchange Website",
+      "title": "Compra e Venda de Excedente Energético",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "github": "Code In Github",
+      "github": "Ver no GitHub",
       "githublink": "https://github.com/hen-mateus/Energy-Exchange-Website",
-      "live": "View Live",
+      "live": "Ver Online",
       "livelink": "https://energyexchange.netlify.app/",
       "langs": [
         "React",
@@ -106,11 +123,11 @@
     {
       "id": "2",
       "src": "./img/projects/movieflix.jpg",
-      "title": "Dia das Empresas Website",
+      "title": "Dia das Empresas - Website",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "github": "Code In Github",
+      "github": "Ver no GitHub",
       "githublink": "https://github.com/hen-mateus/MovieFlix-Dashboard",
-      "live": "View Live",
+      "live": "Ver Online",
       "livelink": "https://movieflix-dashboard.netlify.app/",
       "langs": [
         "React",
@@ -125,9 +142,9 @@
       "src": "./img/projects/dde.jpg",
       "title": "MovieFlix Dashboard",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "github": "Code In Github",
+      "github": "Ver no GitHub",
       "githublink": "https://github.com/hen-mateus/Dia-das-Empresas-Website",
-      "live": "View Live",
+      "live": "Ver Online",
       "livelink": "https://diadasempresas.netlify.app/",
       "langs": [
         "HTML",
@@ -140,9 +157,9 @@
       "src": "./img/projects/vetapp.jpg",
       "title": "VetClinic Manager App",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "github": "Code In Github",
+      "github": "Ver no GitHub",
       "githublink": "https://github.com/hen-mateus/VetClinic-Manager-App",
-      "live": "More Info",
+      "live": "Ver Mais",
       "livelink": "https://github.com/hen-mateus/VetClinic-Manager-App",
       "langs": [
         "C#",
@@ -154,9 +171,9 @@
       "src": "./img/projects/foodapp.jpg",
       "title": "FoodMarket App",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "github": "Code In Github",
+      "github": "Ver no GitHub",
       "githublink": "https://github.com/hen-mateus/FoodMarket-App",
-      "live": "More Info",
+      "live": "Ver Mais",
       "livelink": "https://github.com/hen-mateus/FoodMarket-App",
       "langs": [
         "C#",

@@ -57,6 +57,20 @@ function Navbar() {
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
+        <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="MySkills"
+              className="navbar--content"
+            >
+              Skills
+            </Link>
+          </li>
           <li>
             <Link
               onClick={closeMenu}
@@ -68,7 +82,7 @@ function Navbar() {
               to="AboutMe"
               className="navbar--content"
             >
-              About Me
+              Sobre
             </Link>
           </li>
           <li>
@@ -82,7 +96,7 @@ function Navbar() {
               to="MyPortfolio"
               className="navbar--content"
             >
-              Portfolio
+              Projetos
             </Link>
           </li>
           <li>
@@ -96,7 +110,7 @@ function Navbar() {
               to="Contact"
               className="navbar--content"
             >
-              Contact Me
+              Contacto
             </Link>
           </li>
         </ul>

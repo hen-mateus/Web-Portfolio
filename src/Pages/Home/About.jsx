@@ -6,16 +6,16 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">About</p>
-          <h1 className="skills-section--heading">About Me</h1>
+          <p className="section--title">Sobre</p>
+          <h1 className="skills-section--heading">Sobre mim</h1>
           <p className="hero--section-description">
-            I am a dedicated student with passion for technology and innovation, boasting 6 years of academic experience in multimedia, design and programming. Passionate about merging technology and design to create captivating digital experiences.
+          Sou uma pessoa motivada e entusiasta da área do Desenvolvimento Web. O fascínio por este campo impulsiona-me constantemente a aprimorar as minhas competências e conhecimentos. Com seis anos de experiência em multimédia, design e programação, o meu objetivo é aplicar este conhecimento na criação de projetos inovadores e desafiantes.
           </p>
           <p className="hero--section-description">
-            Proficient in programming languages and skilled in crafting visually appealing websites and interfaces. Excited to bring creativity and technical expertise to innovative projects.
+          A evolução constante das tecnologias no Desenvolvimento Web motiva-me a explorar e aperfeiçoar continuamente as minhas habilidades. Estou entusiasmado por expandir ainda mais os meus conhecimentos neste campo e adquirir experiência prática no ambiente profissional.
           </p>
-          <p className="hero--section-description"><strong>Specializing in:</strong> Full Stack Development | .NET Application Programming | Web Design</p>
-          <p className="hero--section-description"><strong>Studying:</strong> Bachelor in Technology and Design Multimedia at ESTGV, Viseu</p>
+          <p className="hero--section-description"><strong>Áreas de Interesse:</strong> Web Development | Programação de Aplicações .NET | Web Design</p>
+          <p className="hero--section-description"><strong>Licenciatura:</strong> Tecnologias e Design de Multimédia na ESTGV, Viseu</p>
         </div>
       </div>
     </section>

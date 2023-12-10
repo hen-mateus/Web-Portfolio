@@ -6,31 +6,31 @@ export default function HeroSection() {
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
-          <p className="section--title">Hey, I'm</p>
+          <p className="section--title">Bem vindo!</p>
           <h1 className="hero--section--title">
             <span className="hero--section-title--color">Henrique Mateus</span>
           </h1>
           <p className="hero--section-description">
-            Passionate about merging technology and design to create captivating digital experiences.
-            Proficient in programming languages and skilled in crafting visually appealing websites and interfaces.
-            Excited to bring creativity and technical expertise to innovative projects.
+            Apaixonado por unir tecnologia e design para criar experiências digitais cativantes.
+            Proficiente em linguagens de programação e habilidoso na criação de sites e interfaces visualmente atraentes.
+            Animado para trazer criatividade e expertise técnica para projetos inovadores.
           </p>
         </div>
         <div>
           <a href="https://www.linkedin.com/in/henmateus/" target="_blank" rel="noopener noreferrer">
             <button className="btn btn-primary">
-              <FontAwesomeIcon icon={faLinkedin} size="2xl"  />
+              <FontAwesomeIcon icon={faLinkedin} size="2xl" />
             </button>
           </a>
           <a href="https://github.com/hen-mateus" target="_blank" rel="noopener noreferrer">
             <button className="btn btn-primary">
-              <FontAwesomeIcon icon={faGithub} size="2xl"/>
+              <FontAwesomeIcon icon={faGithub} size="2xl" />
             </button>
           </a>
         </div>
       </div>
       <div className="hero--section--img">
-        <img src="./img/hero_img.png" alt="Hero Section" />
+        <img src="./img/profile_photo.png" alt="Hero Section" />
       </div>
     </section>
   );

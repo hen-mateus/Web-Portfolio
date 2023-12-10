@@ -5,20 +5,20 @@ import { useForm, ValidationError } from '@formspree/react';
 export default function ContactMe() {
   const [state, handleSubmit] = useForm("mvojnjpd");
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    return <p>Obrigado por entrar em contato!</p>;
   }
   return (
     <section id="Contact" className="contact--section">
       <div>
-        <h2>Contact Me</h2>
+        <h2>Entre em Contato</h2>
         <p className="text-lg">
-          Feel free to get in touch with me via email using the form below.
+          Sinta-se à vontade para entrar em contato comigo por e-mail usando o formulário abaixo.
         </p>
       </div>
       <form className="contact--form--container" onSubmit={handleSubmit}>
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
-            <span className="text-md">Name</span>
+            <span className="text-md">Nome</span>
             <input
               type="text"
               className="contact--input text-md"
@@ -44,24 +44,29 @@ export default function ContactMe() {
           </label>
         </div>
         <label htmlFor="message" className="contact--label">
-          <span className="text-md">Message</span>
+          <span className="text-md">Mensagem</span>
           <textarea
             className="contact--input text-md"
             id="message"
             name="message"
             rows="8"
-            placeholder="Type your message..."
+            placeholder="Digite a sua mensagem..."
           />
           <ValidationError
-            prefix="Message"
+            prefix="Mensagem"
             field="message"
             errors={state.errors}
           />
         </label>
         <div>
-          <button className="btn btn-primary contact--form--btn" type="submit" disabled={state.submitting}>Submit</button>
+          <button className="btn btn-primary contact--form--btn" type="submit" disabled={state.submitting}>Enviar</button>
         </div>
       </form>
+      {state.succeeded && (
+        <div className="success-message">
+          <p>Obrigado por entrar em contato!</p>
+        </div>
+      )}
     </section>
   );
 }
