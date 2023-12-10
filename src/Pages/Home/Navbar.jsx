@@ -44,7 +44,7 @@ function Navbar() {
           to="heroSection"
           className="navbar--content"
         >
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src="./img/logo_nav.png" alt="Logo com o nome Henrique Mateus e um elemento que está associado com web development, um circulo com recortes de nós com ligações." />
         </Link>
       </div>
       <a
@@ -57,7 +57,7 @@ function Navbar() {
       </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
-        <li>
+          <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar--active-content"

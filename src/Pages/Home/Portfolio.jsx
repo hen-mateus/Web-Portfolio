@@ -65,6 +65,7 @@ export default function MyPortfolio() {
         <div className="portfolio--container">
           <p className="sub--title">Projetos Recentes</p>
           <h2 className="section--heading">Portfolio</h2>
+          <p>Cada um dos projetos oferece a opção de, ao passar o cursor sobre a imagem, visualizar o projeto com um efeito de scroll.</p>
         </div>
         <div>
           <button className="btn btn-github" onClick={() => window.open('https://github.com/hen-mateus')}>

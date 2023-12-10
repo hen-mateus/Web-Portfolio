@@ -30,7 +30,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="hero--section--img">
-        <img src="./img/profile_photo.png" alt="Hero Section" />
+        <img src="./img/profile_photo.png" alt="Imagem de Henrique Mateus a sorrir e de braços cruzados, com uma camisola de fecho e gola alta cinzenta, com alguns elementos relacionados com web development, dentro de um retângulo de cor azul claro." />
       </div>
     </section>
   );

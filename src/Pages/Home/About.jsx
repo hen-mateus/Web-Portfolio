@@ -2,7 +2,7 @@ export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
+        <img src="./img/profile_photo2.png" alt="Imagem de Henrique Mateus a sorrir e de braços cruzados, com uma camisola de fecho e gola alta cinzenta, dentro de uma forma oval roxa." />
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">

@@ -184,6 +184,10 @@ h2 {
   z-index: 2;
 }
 
+.navbar img{
+  width: 25%;
+}
+
 .navbar--items>ul {
   list-style: none;
   display: flex;
@@ -265,7 +269,8 @@ h2 {
 }
 
 .hero--section--img>img {
-  width: 100%;
+  margin: auto auto;
+  width: 90%;
   height: 100%;
 }
 
