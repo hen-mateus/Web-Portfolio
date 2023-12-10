@@ -10,6 +10,11 @@ function Footer() {
         <p className="footer--content">Copyright © 2023. Todos os direitos reservados.</p>
         <div className="footer--social--icon">
           <ul>
+          <li>
+          <a href="/HenriqueMateus_Curriculo.pdf" download="HenriqueMateus_Curriculo.pdf" className="footer--cv-link">
+              <h3>Download CV</h3>
+          </a>
+            </li>
             <li>
               <a href="https://www.linkedin.com/in/henmateus/" target="_blank" rel="noopener noreferrer">
                   <FontAwesomeIcon icon={faLinkedin} size="2xl" />
